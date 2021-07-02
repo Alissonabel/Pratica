@@ -1,4 +1,3 @@
-""1""
 const int numero = -10;
   const int zero = 0;
   const bool positivo = numero > zero;
@@ -9,41 +8,3 @@ const int numero = -10;
   }else if(negativo){
     print("O número é negativo");
   }
--------------------------------------------------
-""2""
-const int numero1 = 10;
-  const int numero2 = 10;
-  const bool maior = numero1 > numero2;
-  const bool menor = numero1 < numero2;
-  
-  
-  if(maior){
-    print("O primeiro número é maior");
-  }else if(menor){
-    print("O segundo número é maior");
-  }else{
-   print("Os números são iguais"); 
-  }
--------------------------------------------------
-""3""
-const int a = 2;
-  const int b = 4;
-  const int c = 5;
-  const bool diferente = "${a + b * c}" != "${b / a * c}";
-  const bool igual = "${a + b * c}" == "${b / a * c}";
-  
-  print("a = $a");
-  print("b = $b");
-  print("c = $c\n");
-  
-  print("Calculo 1: ${a + b * c }\n");
-  
-  print("Calculo 2: ${b / a * c}\n");
-  
-  if(diferente){
-    print("Resultado dos calculos é diferente");
-  }else if(igual){
-    print("Resultado dos calculos é igual");
-  }  
--------------------------------------------------
-""4""
