@@ -1,0 +1,11 @@
+ double nota1 = 6.9;
+  double nota2 = 5;
+  double media;
+  
+  media = (nota1+nota2)/2;
+  
+  if(media >= 6){
+    print("Aprovado");
+  }else{
+    print("Reprovado");
+  }

@@ -1,0 +1,12 @@
+double salario = 1500;
+  double dissidio = 0.04;
+  double tempoEmpresa = 1.0;
+  double novoSalario;
+  
+  novoSalario = (salario + (salario * dissidio));
+  
+  if(tempoEmpresa >= 1){
+    print("Salário reajustado: $novoSalario");
+  }else{
+    print("Funcionário com menos de 1 ano de empresa!");
+  }

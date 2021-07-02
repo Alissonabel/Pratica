@@ -1,0 +1,13 @@
+ double saldo = 800;
+  double saque = 5000;
+  double saldoAtual;
+  
+  print("Saldo Disponível: $saldo reais\n");
+  
+  saldoAtual = (saldo - saque);
+  
+ if(saldo >= saque){
+   print("Saque efetuado com sucesso!\n\nSaldo Atual: $saldoAtual reais");
+ }else{
+   print("Saldo insuficiente!");
+ }

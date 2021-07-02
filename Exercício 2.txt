@@ -1,0 +1,13 @@
+const int numero1 = 10;
+  const int numero2 = 10;
+  const bool maior = numero1 > numero2;
+  const bool menor = numero1 < numero2;
+  
+  
+  if(maior){
+    print("O primeiro número é maior");
+  }else if(menor){
+    print("O segundo número é maior");
+  }else{
+   print("Os números são iguais"); 
+  }

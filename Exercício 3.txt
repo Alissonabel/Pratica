@@ -1,0 +1,19 @@
+const int a = 2;
+  const int b = 4;
+  const int c = 5;
+  const bool diferente = "${a + b * c}" != "${b / a * c}";
+  const bool igual = "${a + b * c}" == "${b / a * c}";
+  
+  print("a = $a");
+  print("b = $b");
+  print("c = $c\n");
+  
+  print("Calculo 1: ${a + b * c }\n");
+  
+  print("Calculo 2: ${b / a * c}\n");
+  
+  if(diferente){
+    print("Resultado dos calculos é diferente");
+  }else if(igual){
+    print("Resultado dos calculos é igual");
+  } 

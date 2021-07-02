@@ -1,0 +1,14 @@
+double n1 = 7;
+  double n2 = 7;
+  double n3 = 7;
+  double media;
+  
+  media = (n1+n2+n3)/3;
+  
+  if(media >= 7){
+    print('Aprovado');
+  }else if(media >= 6 && media <= 7){
+    print('Exame');
+  }else{
+    print('Reprovado');
+  }
